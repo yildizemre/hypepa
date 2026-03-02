@@ -14,14 +14,21 @@ import Settings from './pages/Settings';
 import ModulePage from './pages/ModulePage';
 
 function TourAutoStart() {
+  const { isAuthenticated } = useAuth();
   const { currentPage } = useNavigation();
   const { startTour, hasCompletedTour, isActive } = useTour();
+
   useEffect(() => {
+    if (!isAuthenticated) {
+      return;
+    }
+
     if (currentPage === 'dashboard' && !hasCompletedTour && !isActive) {
       const t = setTimeout(startTour, 500);
       return () => clearTimeout(t);
     }
-  }, [currentPage, hasCompletedTour, isActive, startTour]);
+  }, [isAuthenticated, currentPage, hasCompletedTour, isActive, startTour]);
+
   return null;
 }
 
