@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react';
 
-const TOUR_STORAGE_KEY = 'hype_vision_tour_completed';
+const TOUR_STORAGE_KEY = 'orbitra_tour_completed';
 
 export interface TourStep {
   id: string;
@@ -15,7 +15,7 @@ export interface TourStep {
 export const defaultTourSteps: TourStep[] = [
   {
     id: 'welcome',
-    title: 'Hype Vision\'a Hoş Geldiniz',
+    title: 'Orbitra\'ya Hoş Geldiniz',
     content: 'Bu kısa tur ile arayüzü tanıyacaksınız. İleri butonu ile adımları takip edebilir, isterseniz Atla ile turu kapatabilirsiniz.',
     placement: 'center',
   },

@@ -1,6 +1,6 @@
 const API_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '') || 'http://127.0.0.1:3001';
 
-const TOKEN_KEY = 'hype_vision_token';
+const TOKEN_KEY = 'orbitra_token';
 
 export function getToken(): string | null {
   return localStorage.getItem(TOKEN_KEY);

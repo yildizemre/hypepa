@@ -62,7 +62,7 @@ export default function Settings() {
                     <label className="block text-sm font-medium text-slate-700 mb-2">E-posta</label>
                     <input
                       type="email"
-                      defaultValue="admin@hypevision.com"
+                        defaultValue="admin@orbitra.com"
                       className="w-full px-4 py-2 bg-slate-50 border border-slate-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
                     />
                   </div>

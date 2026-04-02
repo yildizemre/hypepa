@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { login as apiLogin, setToken, getToken, type AppUser } from '../lib/api';
 
-const STORAGE_KEY = 'hype_vision_user';
+const STORAGE_KEY = 'orbitra_user';
 
 interface AuthContextType {
   user: AppUser | null;

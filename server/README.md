@@ -1,4 +1,4 @@
-# Hype Vision API (Python / Flask)
+# Orbitra API (Python / Flask)
 
 ## Kurulum
 

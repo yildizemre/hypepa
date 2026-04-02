@@ -88,7 +88,7 @@ export default function Dashboard() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-white">
-              <h1 className="text-xl sm:text-2xl font-bold mb-1">Hype Vision Kontrol Paneli</h1>
+              <h1 className="text-xl sm:text-2xl font-bold mb-1">Orbitra Kontrol Paneli</h1>
               <p className="text-slate-200 text-xs sm:text-sm">
                 Kamera tabanlı görüntü işleme ile güvenlik, İSG ve üretim analizleri. Tüm bölgeler tek ekrandan izlenir.
               </p>

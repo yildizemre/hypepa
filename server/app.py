@@ -25,5 +25,5 @@ def health():
 
 
 if __name__ == "__main__":
-    print(f"Hype Vision API http://localhost:{PORT}")
+    print(f"Orbitra API http://localhost:{PORT}")
     app.run(host="0.0.0.0", port=PORT, debug=True)

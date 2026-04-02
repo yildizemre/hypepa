@@ -89,7 +89,7 @@ export default function Sidebar() {
     <>
       <div className="flex-shrink-0 px-3 flex items-center justify-between lg:justify-center">
         <motion.div whileHover={{ scale: 1.02 }} className="flex-1 flex justify-center lg:flex-none">
-          <img src="/hypevisionlogo.png" alt="Hype Vision" className="h-10 w-auto object-contain" />
+          <img src="/orbitralogo.png" alt="Orbitra" className="h-10 w-auto object-contain" />
         </motion.div>
         <button
           type="button"

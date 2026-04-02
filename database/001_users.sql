@@ -1,5 +1,5 @@
--- Hype Vision: Kendi PostgreSQL veritabanınızda çalıştırın.
--- Örnek: psql -U postgres -d hype_vision -f 001_users.sql
+-- Orbitra: Kendi PostgreSQL veritabanınızda çalıştırın.
+-- Örnek: psql -U postgres -d orbitra_vision -f 001_users.sql
 -- veya pgAdmin / DBeaver ile bu dosyayı açıp çalıştırın.
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;

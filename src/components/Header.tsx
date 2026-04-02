@@ -18,7 +18,7 @@ const pageNames: Record<string, string> = {
 };
 
 const pageSubtitles: Record<string, string> = {
-  dashboard: 'Hype Vision Analitik',
+  dashboard: 'Orbitra Analitik',
   hse: 'Gerçek zamanlı güvenlik izleme ve analizler',
   yangin: 'Yangın algılama ve uyarı analizleri',
   'alan-ihlali': 'Kısıtlı alan ve güvenlik bölgesi ihlal analizleri',
@@ -73,7 +73,7 @@ export default function Header() {
           <h1 className="text-xl sm:text-2xl font-bold text-slate-900 truncate">
             {pageNames[currentPage]}
           </h1>
-          <p className="text-xs sm:text-sm text-slate-500 truncate">{pageSubtitles[currentPage] ?? 'Hype Vision Analitik'}</p>
+          <p className="text-xs sm:text-sm text-slate-500 truncate">{pageSubtitles[currentPage] ?? 'Orbitra Analitik'}</p>
           </div>
         </div>
 

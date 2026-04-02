@@ -1,4 +1,4 @@
-# Hype Vision – Kurulum
+# Orbitra – Kurulum
 
 Backend Python (Flask). Varsayılan veritabanı SQLite (kurulum yok); isteğe bağlı PostgreSQL.
 
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-`.env` içinde `DATABASE_URL` boş bırakılırsa SQLite kullanılır. PostgreSQL için: `DATABASE_URL=postgresql://kullanici:sifre@localhost:5432/hype_vision`
+`.env` içinde `DATABASE_URL` boş bırakılırsa SQLite kullanılır. PostgreSQL için: `DATABASE_URL=postgresql://kullanici:sifre@localhost:5432/orbitra_vision`
 
 Admin kullanıcısını oluşturun (bir kez):
 

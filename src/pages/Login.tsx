@@ -46,7 +46,7 @@ export default function Login() {
             className="mb-10"
           >
             <span className="text-blue-200/90 text-sm font-medium tracking-widest uppercase">Yapay Zeka Analitik</span>
-            <h1 className="text-4xl xl:text-5xl font-bold mt-2 mb-5 tracking-tight">Hype Vision</h1>
+            <h1 className="text-4xl xl:text-5xl font-bold mt-2 mb-5 tracking-tight">Orbitra</h1>
             <div className="w-16 h-1 rounded-full bg-white/50" />
             <p className="text-blue-100/95 text-lg leading-relaxed max-w-md mt-6">
               Tesisinizi gerçek zamanlı izleyin, sayım ve İSG takibini tek ekrandan yönetin.
@@ -93,8 +93,8 @@ export default function Login() {
                 className="mb-4"
               >
                 <img
-                  src="/hypevisionlogo.png"
-                  alt="Hype Vision"
+                  src="/orbitralogo.png"
+                  alt="Orbitra"
                   className="h-16 w-auto object-contain"
                 />
               </motion.div>

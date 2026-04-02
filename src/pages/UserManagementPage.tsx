@@ -19,10 +19,10 @@ function mapUserRowToDisplay(row: UserRow): DisplayUser {
 }
 
 const FALLBACK_USERS: DisplayUser[] = [
-  { id: '1', name: 'Admin Kullanıcı', email: 'admin@hypevision.com', role: 'Yönetici', status: 'Aktif' },
-  { id: '2', name: 'Ahmet Yılmaz', email: 'ahmet@hypevision.com', role: 'Müdür', status: 'Aktif' },
-  { id: '3', name: 'Ayşe Demir', email: 'ayse@hypevision.com', role: 'Operatör', status: 'Aktif' },
-  { id: '4', name: 'Mehmet Kaya', email: 'mehmet@hypevision.com', role: 'Operatör', status: 'Pasif' },
+  { id: '1', name: 'Admin Kullanıcı', email: 'admin@orbitra.com', role: 'Yönetici', status: 'Aktif' },
+  { id: '2', name: 'Ahmet Yılmaz', email: 'ahmet@orbitra.com', role: 'Müdür', status: 'Aktif' },
+  { id: '3', name: 'Ayşe Demir', email: 'ayse@orbitra.com', role: 'Operatör', status: 'Aktif' },
+  { id: '4', name: 'Mehmet Kaya', email: 'mehmet@orbitra.com', role: 'Operatör', status: 'Pasif' },
 ];
 
 export default function UserManagementPage() {
@@ -91,7 +91,8 @@ export default function UserManagementPage() {
       u.email.toLowerCase().includes(search.toLowerCase())
   );
 
-  const isCurrentUser = (u: DisplayUser) => effectiveUser && u.name === effectiveUser.username;
+  const isCurrentUser = (u: DisplayUser) =>
+    !!effectiveUser && u.name === effectiveUser.username;
 
   const handleDeleteUser = async () => {
     if (!userToDelete) return;
