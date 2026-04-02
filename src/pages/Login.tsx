@@ -93,7 +93,7 @@ export default function Login() {
                 className="mb-4"
               >
                 <img
-                  src="/orbitralogo.png"
+                  src="/orbisoft.webp"
                   alt="Orbitra"
                   className="h-16 w-auto object-contain"
                 />
